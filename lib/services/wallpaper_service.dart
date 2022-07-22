@@ -9,7 +9,7 @@ class WallPaperService {
     double width = 0,
   }) async {
     try {
-      var res = await Wallpaper.homeScreen(
+      var res = await Wallpaper.bothScreen(
         height: height,
         width: width,
       );
